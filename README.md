@@ -11,9 +11,13 @@ movies are released to favored genres.
 
 # - Dataset Links:
 IMDb dataset - https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset
+
 Blockbuster dataset - https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977?select=Blockbusters_2019-1977.csv
+
 OMDb API - http://www.omdbapi.com/
+
 MovieDb dataset - https://developers.themoviedb.org/3/getting-started/introduction
+
 Will also be using IMDb Pro
 
 # - Visualization Ideas:
