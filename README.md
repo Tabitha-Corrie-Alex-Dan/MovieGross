@@ -1,3 +1,4 @@
+<img width="588" alt="Screen Shot 2021-04-17 at 12 19 39 PM" src="https://user-images.githubusercontent.com/72418166/115119597-3a1f8180-9f77-11eb-81fe-14f13db2fd94.png">
 # Movie Genre Popularity Depending on Month
 
 # - The Team:
@@ -40,11 +41,9 @@ revenue based on month
 <img width="684" alt="Screen Shot 2021-04-17 at 12 03 05 PM" src="https://user-images.githubusercontent.com/72418166/115119146-e90e8e00-9f74-11eb-8bc7-c9c54430be3d.png">
 # Map - 
 
-
-
+![Screen Shot 2021-04-17 at 12 13 04 PM](https://user-images.githubusercontent.com/72418166/115119450-638bdd80-9f76-11eb-830c-8b28eb746106.png)
 # - Sketch of Final Design:
 ![Screen Shot 2021-04-17 at 12 10 30 PM](https://user-images.githubusercontent.com/72418166/115119407-3dfed400-9f76-11eb-8b04-38b336d8640c.png)
 ![Screen Shot 2021-04-17 at 12 10 43 PM](https://user-images.githubusercontent.com/72418166/115119414-47883c00-9f76-11eb-97c5-6864d5b4f6d3.png)
 ![Screen Shot 2021-04-17 at 12 10 58 PM](https://user-images.githubusercontent.com/72418166/115119422-4c4cf000-9f76-11eb-9e13-c468e54b596b.png)
-![Screen Shot 2021-04-17 at 12 13 04 PM](https://user-images.githubusercontent.com/72418166/115119450-638bdd80-9f76-11eb-830c-8b28eb746106.png)
 
