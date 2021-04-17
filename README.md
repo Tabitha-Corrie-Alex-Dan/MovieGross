@@ -6,8 +6,7 @@ Tabitha Head, Dan Larson, Corrie Thomas, Alex Martinez
 
 # - Brief Explanation of Project:
 
-We will be comparing movie genre popularity based on each month throughout the year. Creating charts and visualizations to show the comparison of when 
-movies are released to favored genres.
+We will be comparing movie genre popularity and box office revenue based on each month throughout the year. Creating charts and visualizations to show the comparison of when movies are released to favored genres.
 
 # - Dataset Links:
 IMDb dataset - https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset
