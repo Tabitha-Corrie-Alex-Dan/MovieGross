@@ -6,7 +6,7 @@ Tabitha Head, Dan Larson, Corrie Thomas, Alex Martinez
 
 # - Brief Explanation of Project:
 
-We will be comparing movie genre popularity and box office revenue based on each month throughout the year. Creating charts and visualizations to show the comparison of when movies are released to favored genres.
+Is there a relation between movie genre popularity and seasons throughout the year? We will be creating charts and visualizations to show the comparison of when movies are released to favored genres.
 
 Basis of our preferred movie genre for each month:
 https://www.reddit.com/r/movies/comments/adhd3c/assign_a_film_genre_to_a_month_of_the_year/
