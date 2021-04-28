@@ -18,10 +18,20 @@ def get_all_seasons():
     result = season.find()
     return Response(dumps(result, indent=4), mimetype='application/json')
 
+@app.route('/sum', methods=['GET'])
+def getSum():
+    sum_df = mongo.db.sum
+    result = sum_df.find()
+    return Response(dumps(result, indent=4), mimetype='application/json')
+
+
 @app.route('/', methods=['GET'])
 def getTemplate():
     return render_template('index6.html')
 
+@app.route('/movie', methods=['GET'])
+def getMovie():
+    return render_template('index2.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
