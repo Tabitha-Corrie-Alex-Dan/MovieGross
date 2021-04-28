@@ -28,7 +28,6 @@ def getSum():
 def getTemplate():
     return render_template('index6.html')
 
-<<<<<<< HEAD
 @app.route('/corrie', methods=['GET'])
 def getCorrie():
     return render_template('index1.html')
@@ -40,14 +39,6 @@ def getTopMovie():
 
 @app.route('/alex', methods=['GET'])
 def getAlex():
-=======
-@app.route('/movie', methods=['GET'])
-def getMovie():
-    return render_template('index2.html')
-
-@app.route('/test', methods=['GET'])
-def getData():
->>>>>>> 3904e5f09dcfd670db0e8b146479b3c012fe1ac6
     return render_template('index3.html')
 
 @app.route('/tabitha', methods=['GET'])
