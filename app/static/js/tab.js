@@ -7,7 +7,7 @@ var data = [
       "type": "sunburst",
       "labels": ["Fall <br> Cumulative Gross <br> {in dollars}:", "Winter <br> Cumulative Gross <br> {in dollars}:", "Spring <br> Cumulative Gross <br> {in dollars}:", "Summer <br> Cumulative Gross <br> {in dollars}:", "Holiday Season <br> Cumulative Gross <br> {in dollars}:"],
       "parents": ["", "", "", "", "", ""],
-      "values":  ["21243273.89", "29360349.01", "28614314.82", "78360402.36", "38269909.44"],
+      "values":  [2124327389, 2936034901, 2861431482, 7836040236, 3826990944],
       "leaf": {"opacity": 0.4},
       "marker": {"line": {"width": 2}},
       "branchvalues": 'relative'
