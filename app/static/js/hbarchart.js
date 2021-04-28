@@ -65,5 +65,5 @@ var traceH = {
     barmode: 'stack'
   };
   
-  Plotly.newPlot('myDiv', data, layout);
+  Plotly.newPlot('hbar', data, layout);
   
