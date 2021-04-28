@@ -22,6 +22,10 @@ def get_all_seasons():
 def getTemplate():
     return render_template('index6.html')
 
+@app.route('/test', methods=['GET'])
+def getData():
+    return render_template('index3.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
