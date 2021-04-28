@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-d3.json('/data').then(function(getData) {
-  console.log(getData)
-})
-=======
 d3.json("/data").then(function(getdata) {
   console.log(getdata);
 });
->>>>>>> 3904e5f09dcfd670db0e8b146479b3c012fe1ac6
 
 var traceH = {
     x: [134, 258, 237, 232, 236, 246, 242, 217, 214, 216, 233, 244, 244, 228, 243, 258, 246, 280, 245, 109],
