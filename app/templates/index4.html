@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Project 2 || UCF Data Science Bootcamp || Dan Larson || Corrie Thomas || Tabitha Head || Alex Martinez</title>
+		<title>Top Movie per Season by Year</title>
 		<meta name="description" content="This is a Movie Data Project" />
 		<meta name="keywords" content="Data Science, Movies, shape, SVG, morphing, web development, web design, javascript" />
 		<meta name="author" content="Dan Larson, Corrie Thomas, Tabitha Head, Alex Martinez" />
@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="static/css/demo.css" />
 		<script>document.documentElement.className = 'js';</script>
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 	</head>
 	<body class="demo-6">
 		<svg class="hidden">
@@ -27,7 +28,7 @@
 			<div class="content content--fixed">
 				<header class="codrops-header">
 					<div class="codrops-links">
-						<a class="codrops-icon codrops-icon--prev" href="/" title="Home"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+						<a class="codrops-icon codrops-icon--prev" href="/" title="Home"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a> -->
 					</div>
 					<h1 class="codrops-header__title">Project 2 || A Movie Data Analysis</h1>
 				</header>
@@ -51,13 +52,13 @@
 						<div class="hamburger__line-in hamburger__line-in--cross02 hamburger__line-in--demo-5"></div>
 					</div>
 				</div>
-				<div class="demo-title demo-title--demo-6">Explore Movie Releases</div>
+				<div class="demo-title demo-title--demo-6" id="dan-chart">Top Movie per Season</div>
 				<div class="global-menu">
 					<div class="global-menu__wrap">
 						<a class="global-menu__item global-menu__item--demo-6" href="/corrie">Corrie's Chart</a>
-						<a class="global-menu__item global-menu__item--demo-6" href="/dan">Dan's Chart</a>
+						<a class="global-menu__item global-menu__item--demo-6" href="/dan">Top Movie per Season</a>
 						<a class="global-menu__item global-menu__item--demo-6" href="/alex">Alex's Chart</a>
-						<a class="global-menu__item global-menu__item--demo-6" href="tabitha">Tabitha's Chart</a>
+						<a class="global-menu__item global-menu__item--demo-6" href="/tabitha">Tabitha's Chart</a>
 					</div>
 				</div>
 				<svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -81,8 +82,11 @@
 				</svg>
 			</div>
 		</main>
+		<script src="https://d3js.org/d3.v5.min.js"></script>
 		<script src="static/js/demo.js"></script>
 		<script src="static/js/easings.js"></script>
 		<script src="static/js/demo6.js"></script>
+		<script src="static/js/tab.js"></script>
+		
 	</body>
 </html>
