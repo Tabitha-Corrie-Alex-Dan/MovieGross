@@ -70,4 +70,8 @@ var traceH = {
   };
   
   Plotly.newPlot('hbar', data, layout);
+
+  d3.json("/data").then(function(getdata) {
+    console.log(getdata);
+  });
   
