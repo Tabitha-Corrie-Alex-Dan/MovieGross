@@ -19,4 +19,4 @@ var data = [
     };
     
     
-    Plotly.newPlot('plot', data, layout)
+    Plotly.newPlot("plot", data, layout)
