@@ -12,11 +12,13 @@ app.config['MONGO_URI'] = 'mongodb://localhost:27017/imdb_DB'
 # PyMongo for Mongo connection
 mongo = PyMongo(app)
 
+
 @app.route('/data', methods=['GET'])
 def get_all_seasons():
     season = mongo.db.collection
     result = season.find()
     return Response(dumps(result, indent=4), mimetype='application/json')
+
 
 @app.route('/sum', methods=['GET'])
 def getSum():
@@ -29,13 +31,20 @@ def getSum():
 def getTemplate():
     return render_template('index6.html')
 
+
 @app.route('/movie', methods=['GET'])
 def getMovie():
     return render_template('index2.html')
 
-@app.route('/test', methods=['GET'])
+
+@app.route('/alex', methods=['GET'])
 def getData():
     return render_template('index3.html')
+
+
+@app.route('/tabitha', methods=['GET'])
+def getTabitha():
+    return render_template('index4.html')
 
 
 @app.route("/releases", methods=["GET"])
@@ -45,5 +54,3 @@ def get_season_releases():
 
 if __name__ == "__main__":
     app.run(debug=True)
-    
-    
