@@ -1,3 +1,4 @@
-d3.json('/data').then(function(getData) {
-    console.log(getData)
+d3.json('/sum').then(function(getSum) {
+    console.log(getSum)
+
 })
