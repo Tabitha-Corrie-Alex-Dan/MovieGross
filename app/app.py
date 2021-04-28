@@ -27,6 +27,11 @@ def getData():
     return render_template('index3.html')
 
 
+@app.route("/releases", methods=["GET"])
+def get_season_releases():
+    return render_template("index1.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
     
