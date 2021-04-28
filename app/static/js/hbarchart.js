@@ -1,5 +1,5 @@
-d3.json("/data").then(function(getData) {
-  console.log(getData)
+d3.json("/data").then(function(getdata) {
+  console.log(getdata);
 });
 
 var traceH = {
