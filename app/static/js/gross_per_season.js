@@ -1,32 +1,21 @@
 d3.json("/sum").then(function (getSum) {
   console.log(getSum);
 
-  var season = getSum.season;
-  var cumGross = getSum.cum_gross;
+  let season = getSum.map((season) => season.season);
+  var cumGross = getSum.map((gross) => gross.cum_gross);
   var average = getSum.average;
+  console.log(season);
+  console.log(cumGross)
 
-  var trace1 = {
-    type: "bar",
-    x: season,
-    y: cumGross,
-    line: {
-      color: "#17BECF",
-    },
-  };
+var data = [
+    {
+      x: season,
+      y: cumGross,
+      type: 'bar'
+    }
+  ];
+  
+  Plotly.newPlot('plot', data);
 
-
-  var data = [trace1];
-
-  var layout = {
-    title: "Gross per season",
-    xaxis: {
-      range: [length.season],
-    },
-    yaxis: {
-      autorange: true,
-      type: "linear",
-    },
-  };
-
-  Plotly.newPlot("plot", data, layout);
 });
+
