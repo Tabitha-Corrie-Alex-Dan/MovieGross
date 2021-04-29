@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 d3.json('/sum').then(function(getSum) {
     console.log(getSum)
+=======
+d3.json('/sum').then(function(getData) {
+    console.log(getData);
+});
+>>>>>>> tabitha2
 
 
   let season = getSum.map((season) => season.season);
@@ -16,10 +22,17 @@ d3.json('/sum').then(function(getSum) {
       "type": "sunburst",
       "labels": ["Fall <br> Average Gross <br> {in dollars}:", "Winter <br> Average Gross <br> {in dollars}:", "Spring <br> Average Gross <br> {in dollars}:", "Summer <br> Average Gross <br> {in dollars}:", "Holiday Season <br> Average Gross <br> {in dollars}:"],
       "parents": ["", "", "", "", "", ""],
+<<<<<<< HEAD
       "values": [83497912, 155753235, 128158975, 229192669, 166124494],
       "leaf": {"opacity": 5},
       "marker": {"line": {"width": 4}},
       "branchvalues": 'total'
+=======
+      "values":  [2124327389, 2936034901, 2861431482, 7836040236, 3826990944],
+      "leaf": {"opacity": 0.4},
+      "marker": {"line": {"width": 2}},
+      "branchvalues": 'relative'
+>>>>>>> tabitha2
     }];
 
   var layout = {
