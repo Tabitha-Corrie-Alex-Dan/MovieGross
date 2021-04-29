@@ -25,7 +25,7 @@ d3.json('/sum').then(function(getSum) {
   var layout = {
     "margin": {"l": 0, "r": 0, "b": 0, "t": 0},
     sunburstcolorway:["yellow", "red", "blue", "green", "orange"],
-    title: "Average Gross Per Season"
+    title: 'Average Gross Per Season'
   };
 
   var config = {responsive: true}
