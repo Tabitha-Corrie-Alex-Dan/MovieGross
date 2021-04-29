@@ -6,7 +6,7 @@ d3.json('/sum').then(function(getSum) {
   var gross = getSum.map((gross) => gross.gross);
   var average = getSum.map((average) => average.average);
   console.log(season);
-  console.log(gross)
+  console.log(gross);
   console.log(average);
 
   
@@ -25,8 +25,11 @@ d3.json('/sum').then(function(getSum) {
   var layout = {
     "margin": {"l": 0, "r": 0, "b": 0, "t": 0},
     sunburstcolorway:["orange", "blue", "green", "yellow", "red"],
+    title: "Average Gross Per Season"
   };
 
-  Plotly.newPlot('plot', data, layout)
+  var config = {responsive: true}
+
+  Plotly.newPlot('plot', data, layout, config)
 
 });
