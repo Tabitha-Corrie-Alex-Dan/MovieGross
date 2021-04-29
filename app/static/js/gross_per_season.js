@@ -25,6 +25,7 @@ d3.json("/sum").then(function (getSum) {
   var data = [trace1];
   
   var layout = {
+      margin: 0,
     yaxis: {
         title: 'Cumulative Gross (USD)',
         titlefont: {
@@ -37,6 +38,6 @@ d3.json("/sum").then(function (getSum) {
     
   };
   
-  Plotly.newPlot('plot', data, layout);
+  Plotly.newPlot('bar-plot', data, layout);
 
 });
