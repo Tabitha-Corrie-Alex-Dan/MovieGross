@@ -31,6 +31,10 @@ def getSum():
 def getTemplate():
     return render_template('index6.html')
 
+@app.route('/dan', methods=['GET'])
+def getDan():
+    return render_template('index2.html')
+
 
 @app.route('/movie', methods=['GET'])
 def getMovie():
