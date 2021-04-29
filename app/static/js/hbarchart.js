@@ -104,8 +104,10 @@ d3.json("/data").then(function(getdata) {
     title: 'Movie Releases By Season',
     barmode: 'stack'
   };
+
+  var config = {responsive: true}
   
-  Plotly.newPlot('hbar', data, layout);
+  Plotly.newPlot('hbar', data, layout, config);
   
 
 });
