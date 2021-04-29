@@ -37,7 +37,8 @@ d3.json("/sum").then(function (getSum) {
     }
     
   };
-  
-  Plotly.newPlot('bar-plot', data, layout);
+  var config = {responsive: true}
+
+  Plotly.newPlot('bar-plot', data, layout, config);
 
 });
