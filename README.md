@@ -52,6 +52,8 @@ Total releases, average gross, and total gross for each season
 
 Movie releases by season - Not surprisingly, more movies are released in the summer. People have more free time with school being out, and are also more social due to there being more daylight and warmer temps. It makes sense that production companies would release more movies when more people will be able to watch them.
 
+Average Gross Per Season - Summer had the highest average gross with more than double than the smallest average grossing season (Fall). Interestingly, Spring and Winter were pretty close with their average gross proving that those seasons see around the same traffic with amount of releases.
+
 It's interesting to note that the seasons are actually split into five, with the holiday season being removed from the winter season. For our data, the holiday season runs November 3rd to January 4th. It would be interesting to see how the data would be affected if the holiday season were not separated from the winter months.
 
 We also would have liked to dig deeper into the years 2001 and 2018 to see why there were so many less (2001) or more (2018) releases. And of course, the movie industry was significantly impacted by Covid during 2020, so understabdably there are less releases that year. 
