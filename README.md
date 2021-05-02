@@ -36,6 +36,18 @@ Total releases, average gross, and total gross for each season
 ![Screen Shot 2021-04-17 at 12 10 58 PM](https://user-images.githubusercontent.com/72418166/115119422-4c4cf000-9f76-11eb-9e13-c468e54b596b.png)
 ![Screen Shot 2021-04-17 at 12 13 04 PM](https://user-images.githubusercontent.com/72418166/115119450-638bdd80-9f76-11eb-830c-8b28eb746106.png)
 
+# Steps Taken to Achieve End Goal
+
+1. After finding data, created a Jupyter Notebook file called imdb_scaraper.ipynb and used this to complete all of the scraping and data cleaning tasks.
+
+2. After data was cleaned, it was then loaded into Mongo DataBase for later use.
+
+3. Used MongoDB with Flask templating to create new HTML pages that displays all of the information that was scraped.
+
+4. Created two routes '/data' and '/sum' that queried the Mongo database and passed the scraped movie data into HTML templates to display the data.
+
+5. After all routes were created for seperate displays, ran calculations to see what seasons were popular and why.
+
 # - Conclusion:
 
 Movie releases by season - Not surprisingly, more movies are released in the summer. People have more free time with school being out, and are also more social due to there being more daylight and warmer temps. It makes sense that production companies would release more movies when more people will be able to watch them.
