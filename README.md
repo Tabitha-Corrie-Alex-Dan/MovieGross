@@ -13,8 +13,7 @@ Box Office Mojo - https://www.boxofficemojo.com/season/by-year/2000/?grossesOpti
 
 # - Visualization Ideas:
 Bar Charts - 
-Number of releases by season per year
-Cumulative gross per season
+Number of releases by season per year, and cumulative gross per season
 
 ![image](https://user-images.githubusercontent.com/72418166/115118843-46094480-9f73-11eb-9185-a469fe84651d.png)
 
@@ -56,4 +55,9 @@ Average Gross Per Season - Summer had the highest average gross with more than d
 
 It's interesting to note that the seasons are actually split into five, with the holiday season being removed from the winter season. For our data, the holiday season runs November 3rd to January 4th. It would be interesting to see how the data would be affected if the holiday season were not separated from the winter months.
 
-We also would have liked to dig deeper into the years 2001 and 2018 to see why there were so many less (2001) or more (2018) releases. And of course, the movie industry was significantly impacted by Covid during 2020, so understabdably there are less releases that year. 
+We also would have liked to dig deeper into the years 2001 and 2018 to see why there were so many less (2001) or more (2018) releases. And of course, the movie industry was significantly impacted by Covid during 2020, so understabdably there are less releases that year.
+
+
+Top movies by season - Looking at each year, summer tends to have the top grossing movie. Again, no surprise here as summer is when most production companies release their blockbuster movies. Interestingly in 2015, the top grossing movie was released during the holiday season and the movie was Star Wars Episode VII. It's gross value was $770,381,043. The top grossing summer release, Jurassic World, was not too far behind though, valued at $647,728,196. 
+
+One more interesting piece we found was that 2018 was the year of the sequel or remake. Incredibles 2 was the top release for summer; Goosebumps 2, Paddington 2, and Creed II were released; the next film in Star Wars came out (episode VIII); and a remake of the The Grinch hit theaters. Perhaps all of these sequels and remakes are why 2018 saw so many more releases than other years? 
