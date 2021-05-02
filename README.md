@@ -11,6 +11,9 @@ Is there a relation between movie releases and seasons throughout the year? We w
 # - Dataset Links:
 Box Office Mojo - https://www.boxofficemojo.com/season/by-year/2000/?grossesOption=calendarGrosses
 
+# - Additional JS library:
+https://animejs.com/
+
 # - Visualization Ideas:
 Bar Charts - 
 Number of releases by season per year, and cumulative gross per season
