@@ -8,6 +8,14 @@ Tabitha Head, Dan Larson, Corrie Thomas, Alex Martinez
 
 Is there a relation between movie releases and seasons throughout the year? We will be creating charts and visualizations to show the comparison of when movies are released, their cumulative gross, and average gross.
 
+# Instructions on running the data and connections
+
+1. First run the python file located in the "app" folder. The file is named imdb_scraper.
+2. Once the notebook has fully run through, this sends the scaped info into mongo database. 
+  ** Important to note: The mongo database connection that was used does not have password access. Adjustments may need to be made if the local mongoDB connection being used is password protected**
+3. Once all the info is collected and stored in MongoDB, run the app.py flask app to view final html page of movie results.
+4. Explanations of the graphs and conclusions are included below. 
+
 # - Dataset Links:
 Box Office Mojo - https://www.boxofficemojo.com/season/by-year/2000/?grossesOption=calendarGrosses
 
